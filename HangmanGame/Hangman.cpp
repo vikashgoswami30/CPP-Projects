@@ -59,7 +59,7 @@ int main(int argc, char const *argv[])
         winStatus= display_word(word_to_guess,guessed_letters);
         if(winStatus)
         {
-            cout<<"Congratulations!!! You Guessed the Right Word"<<word_to_guess<<endl;
+            cout<<"Congratulations!!! You Guessed the Right Word  "<<word_to_guess<<endl;
             break;
         }
         char guess;
